@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+    <link rel="stylesheet" href="Assets/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Assets/node_modules/feather/feather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="Assets/node_modules/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="Assets/node_modules/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="Assets/css/home.css">
+</head>
+<body>
+
+
+<!--Flash Sale section-->
+<section class="container-fluid min-vh-100">
+    <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-2">
+            <div class="card flash-sale" onclick="add(this)" id="1">
+
+                <a href="#" class="text-decoration-none text-dark">
+                    <img src="Assets/img/flashsale1.png" alt="" class="w-100 shirt" >
+                </a>
+                <div class="card-body">
+                    <p class="mb-0 product-name" >Lorem ipsum dolor sit amet alore.</p>
+                    <p class="text-black-50 mb-1">MMK - 1460</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <del><small class="">MMK- 45000</small></del>
+                        <img src="Assets/img/favorite_border-black-18dp.svg" class="heart-hov heart-icon-click" alt="">
+                        <a href="#" class="text-decoration-none text-dark"><i class="feather-shopping-cart cart-hov"></i></a>
+                    </div>
+                    <a href="#" class="btn btn-orange mt-3">Buy Now</a>
+                    <input type="hidden" value="1">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+            <div class="card flash-sale" onclick="add(this)" id="2">
+                <a href="#" class="text-decoration-none text-dark">
+                    <img src="Assets/img/flashsale1.png" alt="" class="w-100 shirt" >
+                </a>
+                <div class="card-body">
+                    <p class="mb-0 product-name" >Lorem ipsum dolor sit amet alore.</p>
+                    <p class="text-black-50 mb-1">MMK - 1460</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <del><small class="">MMK- 45000</small></del>
+                        <img src="Assets/img/favorite_border-black-18dp.svg" class="heart-hov heart-icon-click" alt="">
+                        <a href="#" class="text-decoration-none text-dark"><i class="feather-shopping-cart cart-hov"></i></a>
+                    </div>
+                    <a href="#" class="btn btn-orange mt-3">Buy Now</a>
+                    <input type="hidden" value="2">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<script src="Assets/node_modules/jquery/dist/jquery.js"></script>
+<script src="Assets/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="Assets/node_modules/slick-1.8.1/slick/slick.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
